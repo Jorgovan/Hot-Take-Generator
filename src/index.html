@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link type="css/text" rel="stylesheet" href="style.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <title>Hot Take Generator</title>
+        <style>
+            p {display:inline-flex;}
+            .player__team{ text-align: right;}
+            .btn-inline {
+                color:brown;
+                border: none;
+                cursor: pointer;
+                align-items: center;
+                padding: 5px;
+                border-radius: 5px;
+
+            }
+            .results__btn--next {
+                display: flex;
+                float: right;
+                
+            }
+            .player {
+                background-color: aquamarine;
+            }
+            .player:hover {
+                background-color: cadetblue;
+                cursor: pointer;
+            }
+            .removePlayerIcon {
+                color: orangered;
+            }
+            .removePlayerIcon:hover {
+                color: orange;
+                cursor: pointer;
+            }
+            .selectedPlayer {
+                border: 1px;
+            }
+            
+        </style>
+    </head>
+    <body>
+    <header>
+        <form class="player_search">
+            <button class="btn search__player">
+                
+                <span>Search</span>
+            </button>
+            <input type="text" class="player__search__field" placeholder="Search the database">
+        </form>
+        <div class="selectedPlayersList">
+         <!--   <div class="selectedPlayer" data-playerId="player_id">
+                        <span>first_name last_name</span>
+                        <span class="removePlayerIcon"> <i class="material-icons">highlight_off</i></span>
+                    </div> -->
+        </div>
+    </header>
+    
+    <ul class="search__results">
+        
+    <!--    <li>
+                <div class="player">
+                <p class="player__position">F</p>
+                <p class="player__name">James Nunnally</p>
+                <p class="player__team">Minessotta Timberwolves</p>
+                </div>
+        </li>
+    -->
+    </ul>
+        
+   
+    <div class="search__pages">
+        
+        </div>
+        
+    <div class="banner">  </div>
+        
+         <div class="buildModelButton">
+        <button class="build__model">Build Player Models</button>    
+    </div>
+        
+    <div class="player-stats">
+        
+    </div>
+        
+    </body>
+</html>
